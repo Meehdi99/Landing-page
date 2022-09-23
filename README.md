@@ -1,1 +1,3 @@
-Knowledge-check: Creating a landing page with css and html.
+# Odin Project:
+
+Creating a landing page with CSS and HTML.
