@@ -2,9 +2,15 @@
 body{
     font-family: Roboto, sans-serif;
     display: flex;
+    font-size: 18px;
     flex-direction: column;
     text-align: center;
     margin: 0;
+}
+h1{
+    margin: 50px 0;
+    font: 900 36px Robot, sans-serif;
+    color: #1f2937;
 }
 .header, .hero{
     display: flex;
@@ -16,17 +22,20 @@ a{
     color: #e5e7eb;
     text-decoration: none;
 }
+.logo{
+    font:bold 24px roboto,sans-serif;
+}
 .header ul, .logo{
     padding: 0 15%;
     display: flex;
-    gap: 20px;
+    gap: 60px;
     list-style: none;
-    font-size: 24px;
     color: #f9faf8;
 }
 .hero{
     text-align: start;
     padding: 20px 15%;
+    min-height: 400px;
 }
 .hero img{
     padding: 0;
@@ -39,24 +48,86 @@ a{
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
+    justify-content: space-evenly;
 }
 .hero .main.text{
     padding: 0;
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900px;
     color: #f9faf8;
-    margin-bottom: 10px;
 }
-.hero .second.text,
-.hero button{
+.hero .second.text{
     padding: 0;
-    font-size: 18px;
     color: #e5e7eb;
-    margin-bottom: 10px;
 }
-.hero button{
+.button button{
+    border: #e5e7eb solid 2px;
+}
+button{
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e7eb;
     padding: 6px 20px;
-    background-color: #101b2b;
-    border-color: black;
-    border-radius: 15px 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 0;
+}
+.container{
+    gap: 30px;
+    padding: 0 15%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+.infos{
+    min-height: 500px;
+}
+.info{
+    width: 200px;
+}
+.info img{
+    border: #101b2b solid 5px;
+    border-radius: 20px;
+    width: 200px;
+    height: auto;
+}
+.quote{
+    font: italic lighter 30px Roboto, sans-serif;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    padding: 5% 15%;
+    min-height: 400px;
+    background-color:#e5e7eb;
+}
+.quote img{
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+    border: #f8fbff solid 5px;
+}
+.button{
+    color: #e5e7eb;
+    background-color:  #3882f6; ;
+    height: 200px;
+    display: flex;
+    border-radius: 10px;
+    margin: 10% 15%;
+    justify-content: space-around;
+    align-items: center;
+}
+.main{
+    font: bolder 24px Roboto, sans-serif;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    height: 150px;
 }
