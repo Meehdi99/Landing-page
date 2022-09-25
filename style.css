@@ -1,34 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: Roboto, sans-serif;
     display: flex;
-    font-size: 18px;
+    font-size: 24px;
     flex-direction: column;
     text-align: center;
     margin: 0;
 }
 h1{
-    margin: 50px 0;
+    border-bottom: #0c250e solid 2px;
+    padding: 20px;
+    width: 800px;
+    margin: 40px auto;
     font: 900 36px Robot, sans-serif;
-    color: #1f2937;
+    color: #113814;
 }
 .header, .hero{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1f2937;
+    background-color: #113814;
+}
+.header{
+    border-bottom: #0c250e 1px solid;
+    height: 100px;
+    position: sticky;
+    top: 0;
 }
 a{
     color: #e5e7eb;
     text-decoration: none;
 }
-.logo{
-    font:bold 24px roboto,sans-serif;
+.header img{
+    width: 100px;
+    height: 100px;
 }
 .header ul, .logo{
     padding: 0 15%;
     display: flex;
-    gap: 60px;
+    gap: 40px;
     list-style: none;
     color: #f9faf8;
 }
@@ -52,7 +65,7 @@ a{
 }
 .hero .main.text{
     padding: 0;
-    font-size: 48px;
+    font-size: 60px;
     font-weight: 900px;
     color: #f9faf8;
 }
@@ -68,7 +81,7 @@ button{
     font-weight: bold;
     color: #e5e7eb;
     padding: 6px 20px;
-    background-color: #3882f6;
+    background-color: #2b9234;
     border-radius: 10px;
     border: 0;
 }
@@ -84,13 +97,14 @@ button{
     min-height: 500px;
 }
 .info{
-    width: 200px;
+    width: 250px;
 }
 .info img{
-    border: #101b2b solid 5px;
+    border: #113814 solid 2px;
     border-radius: 20px;
-    width: 200px;
-    height: auto;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
 }
 .quote{
     font: italic lighter 30px Roboto, sans-serif;
@@ -110,7 +124,7 @@ button{
 }
 .button{
     color: #e5e7eb;
-    background-color:  #3882f6; ;
+    background-color:  #2b9234; ;
     height: 200px;
     display: flex;
     border-radius: 10px;
@@ -119,15 +133,15 @@ button{
     align-items: center;
 }
 .main{
-    font: bolder 24px Roboto, sans-serif;
+    font: bolder 30px Roboto, sans-serif;
     text-align: left;
     margin-bottom: 5px;
 }
 .footer{
-    display: flex;
+    display: flex;  
     align-items: center;
     justify-content: center;
     color: #e5e7eb;
-    background-color: #1f2937;
+    background-color: #0c250e;
     height: 150px;
 }
